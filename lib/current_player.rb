@@ -9,6 +9,7 @@ end
 end
 
 def current_player(counter)
+  puts counter
   if counter % 2==0
     return "X"
   elsif counter %2==1
